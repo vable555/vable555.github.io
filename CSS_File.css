@@ -1,0 +1,105 @@
+#ABZAC1{
+	text-align: center;
+	width: 48%;
+	color: #6c1641;
+	font-size: 30pt;
+	font-family: "Comic Sans MS", Verdana, Arial;
+	    text-shadow: #FFF 1px 1px 0, #FFF 2px 2px 0, 
+                 #FFF 3px 3px 0, #FFF 4px 4px 0, 
+                 #FFF 5px 5px 0;
+    background-image: url(content/SHAPKA.png);
+    background-size: cover;
+    border-radius: 20px; 
+    padding: 2px;
+    position: fixed;
+    top: 0px; left: 26%;
+         }
+#ABZAC1 { z-index: 4; }
+#t { z-index: 5; }
+#r { z-index: 5; }
+#cam { z-index: 4; }
+#snoop { z-index: 5; }
+#EX { z-index: 4; }
+#portal { z-index: 5; }  
+#Us{
+    background-color: #6c1641;
+	color: rgb(0, 10, 250);
+	font-size: 12pt;
+	position: absolute; top: 148px;
+	width: 520px;
+	font-family: Verdana, Arial;
+	text-shadow: #5dc8e5 0 0 10px;
+}
+#Mid{
+	text-align: center;
+    width: 30%;
+    background-color: #6c1641;
+    position: absolute; left: 35%; top: 1477px;	
+	color: rgb(0, 200, 255);
+	font-size: 23pt;
+	font-family: Arial;
+	    text-shadow: #727272 1px 1px 0, #727272 2px 2px 0, 
+                 #727272 3px 3px 0, #727272 4px 4px 0, 
+                 #727272 5px 5px 0;
+    }
+#KR{
+position: absolute; left: 750px; top: 465px;
+background-color: #6c1641;
+width: 570px;
+	font-size: 50pt;
+	color: #B8860B;
+		    text-shadow: #FFD700 1px 1px 0, #FFD700 2px 2px 0, 
+                 #FFD700 3px 3px 0, #FFD700 4px 4px 0, 
+                 #FFD700 5px 5px 0;
+}
+
+#q{
+	position: absolute; left: 20%; right: 20%; top: 1570px;
+}
+
+#w{
+	background-color: #6c1641;
+	position: absolute; left: 0px; top: 375px;
+}
+
+#e{
+	position: absolute; left: 410px; top: 470px;
+}
+#r{
+	text-align: center;
+	position: absolute; left: 25%; top: 750px;
+	width: 50%;
+	color: rgb(230, 120, 15);
+	font-size: 37pt;
+	font-family: "Comic Sans MS", Verdana, Arial;
+	    text-shadow: #727272 1px 1px 0, #727272 2px 2px 0, 
+                 #727272 3px 3px 0, #727272 4px 4px 0, 
+                 #727272 5px 5px 0;
+    background-color: #6c1641;
+    padding: 2px;
+}
+#t{
+	position: absolute; left: 25%; top: 920px;
+}
+#cam{
+	position: fixed; left: 5px; top: 5px;
+}
+#Insta{
+position: fixed; right: 5px; top: 5px;
+}
+#VK{
+position: fixed; right: 5px; top: 60px;
+}
+#Youtube{
+position: fixed; right: 5px; top: 115px;	
+}
+#snoop{
+position: absolute; left: 10px; top: 1000px;
+}
+
+#portal{
+	position: absolute; left: 40%; top: 2300px;
+}
+#EX{
+	position: absolute; left: 40%; top: 2270px;
+}
