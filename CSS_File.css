@@ -79,10 +79,12 @@ width: 570px;
                  #727272 3px 3px 0, #727272 4px 4px 0, 
                  #727272 5px 5px 0;
     background-color: #6c1641;
+    border-radius: 20px;
     padding: 2px;
 }
 #t{
 	position: absolute; left: 25%; top: 940px;
+	width: 50%;
 }
 #cam{
 	position: fixed; left: 5px; top: 5px;
