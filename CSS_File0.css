@@ -1,0 +1,32 @@
+#PZZ{
+position: absolute; left: 10%; top: 5px;
+width: 80%;
+	font-size: 50pt;
+	color: #B8860B;
+		    text-shadow: #FFD700 1px 1px 0, #FFD700 2px 2px 0, 
+                 #FFD700 3px 3px 0, #FFD700 4px 4px 0, 
+                 #FFD700 5px 5px 0;
+}
+
+#da{
+position: absolute; left: 20%; top: 500px;
+background-color: #d8f663;
+border-radius: 20px;
+font-size: 40pt;
+font-family: "Comic Sans MS", Verdana, Arial;
+        color: rgb(0, 250,70);
+	    text-shadow: #727272 1px 1px 0, #727272 2px 2px 0, 
+                 #727272 3px 3px 0, #727272 4px 4px 0, 
+                 #727272 5px 5px 0;
+}
+#no{
+position: absolute; right: 20%; top: 500px;
+background-color: #d8f663;
+border-radius: 20px;
+font-size: 40pt;
+font-family: "Comic Sans MS", Verdana, Arial;
+        color: rgb(250, 10,0);
+	    text-shadow: #727272 1px 1px 0, #727272 2px 2px 0, 
+                 #727272 3px 3px 0, #727272 4px 4px 0, 
+                 #727272 5px 5px 0;
+}
