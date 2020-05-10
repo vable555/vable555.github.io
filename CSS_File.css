@@ -13,7 +13,15 @@
     padding: 2px;
     position: fixed;
     top: 0px; left: 26%;
+                transition-property: color, text-shadow;
+                transition-duration: 400ms;
          }
+#ABZAC1:hover {
+	    text-shadow: #6c1641 1px 1px 0, #6c1641 2px 2px 0, 
+                 #6c1641 3px 3px 0, #6c1641 4px 4px 0, 
+                 #6c1641 5px 5px 0;
+color: #FFF;
+}
 #ABZAC1 { z-index: 4; }
 #Insta { z-index: 4; }
 #VK { z-index: 4; }
@@ -32,6 +40,12 @@
 	width: 520px;
 	font-family: Verdana, Arial;
 	text-shadow: #5dc8e5 0 0 10px;
+	            transition-property: text-shadow, color;
+                transition-duration: 500ms;
+}
+#Us:hover {
+text-shadow: red 0 0 10px;
+color: rgb(250,10,15);
 }
 #Mid{
 	text-align: center;
@@ -54,8 +68,15 @@ width: 570px;
 		    text-shadow: #FFD700 1px 1px 0, #FFD700 2px 2px 0, 
                  #FFD700 3px 3px 0, #FFD700 4px 4px 0, 
                  #FFD700 5px 5px 0;
+                transition-property: color, text-shadow;
+                transition-duration: 400ms;
 }
-
+#KR:hover {
+	    text-shadow: #B8860B 1px 1px 0, #B8860B 2px 2px 0, 
+                 #B8860B 3px 3px 0, #B8860B 4px 4px 0, 
+                 #B8860B 5px 5px 0;
+color: #FFD700;
+}
 #q{
 	position: absolute; left: 20%; right: 20%; top: 1570px;
 }
@@ -105,6 +126,25 @@ position: absolute; left: 10px; top: 1000px;
 #portal{
 	position: absolute; left: 40%; top: 2300px;
 }
+
 #EX{
 	position: absolute; left: 40%; top: 2270px;
+}
+@keyframes prt {
+    from {
+    	position: absolute; left: 40%; top: 2300px;
+    	width: 300px; 
+    	height: 250px;   
+    }
+    to {
+    	position: absolute; left: 37%; top: 2250px;
+    	width: 400px; 
+    	height: 350px;
+    }
+                 }
+#portal:hover {
+    animation-name: prt;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
 }

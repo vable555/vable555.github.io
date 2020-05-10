@@ -11,22 +11,35 @@ width: 80%;
 #da{
 position: absolute; left: 20%; top: 500px;
 background-color: #d8f663;
-border-radius: 20px;
 font-size: 40pt;
 font-family: "Comic Sans MS", Verdana, Arial;
         color: rgb(0, 250,70);
 	    text-shadow: #727272 1px 1px 0, #727272 2px 2px 0, 
                  #727272 3px 3px 0, #727272 4px 4px 0, 
                  #727272 5px 5px 0;
+                transition-property: border-radius, background-color, color;
+                transition-duration: 300ms;
+}
+#da:hover {
+border-radius: 30px;
+background-color :rgb(0, 250,70);
+color: #d8f663;
 }
 #no{
 position: absolute; right: 20%; top: 500px;
 background-color: #d8f663;
-border-radius: 20px;
+border-radius: 0px;
 font-size: 40pt;
 font-family: "Comic Sans MS", Verdana, Arial;
         color: rgb(250, 10,0);
 	    text-shadow: #727272 1px 1px 0, #727272 2px 2px 0, 
                  #727272 3px 3px 0, #727272 4px 4px 0, 
                  #727272 5px 5px 0;
+                transition-property: border-radius, background-color, color;
+                transition-duration: 300ms;
+}
+#no:hover {
+border-radius: 30px;
+background-color :rgb(250, 10,0);
+color: #d8f663;
 }
