@@ -49,7 +49,7 @@ color: rgb(250,10,15);
 }
 #Mid{
 	text-align: center;
-    width: 270px;
+    width: 20%;
     background-color: #6c1641;
     position: absolute; left: 40%; top: 1477px;	
 	color: rgb(0, 200, 255);
@@ -79,6 +79,7 @@ color: #FFD700;
 }
 #q{
 	position: absolute; left: 20%; right: 20%; top: 1570px;
+	width: 60%;
 }
 
 #w{
@@ -91,8 +92,8 @@ color: #FFD700;
 }
 #r{
 	text-align: center;
-	position: absolute; left: 25%; top: 730px;
-	width: 50%;
+	position: absolute; left: 470px; top: 730px;
+	width: 40%;
 	color: rgb(230, 120, 15);
 	font-size: 37pt;
 	font-family: "Comic Sans MS", Verdana, Arial;
@@ -125,11 +126,14 @@ position: absolute; left: 10px; top: 1000px;
 
 
 #portal{
-	position: absolute; left: 40%; top: 2300px;
+	position: absolute; left: 42%; top: 2300px;
+	width: 17%;
 }
 
 #EX{
-	position: absolute; left: 40%; top: 2270px;
+	position: absolute; left: 41%; top: 2270px;
+	width: 19%;
+	height: 42%;
 }
 @keyframes prt {
     from {
