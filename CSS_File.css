@@ -127,7 +127,7 @@ position: absolute; left: 10px; top: 1000px;
 
 #portal{
 	position: absolute; left: 40%; top: 2300px;
-	width: 300px;
+	width: 310px;
     height: 250px;
 }
 
@@ -139,7 +139,7 @@ position: absolute; left: 10px; top: 1000px;
 @keyframes prt {
     from {
     	position: absolute; left: 40%; top: 2300px;
-    	width: 300px; 
+    	width: 310px; 
     	height: 250px;   
     }
     to {
