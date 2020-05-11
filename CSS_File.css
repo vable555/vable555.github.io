@@ -1,6 +1,6 @@
 #ABZAC1{
 	text-align: center;
-	width: 48%;
+	width: 38%;
 	color: #6c1641;
 	font-size: 30pt;
 	font-family: "Comic Sans MS", Verdana, Arial;
@@ -12,7 +12,7 @@
     border-radius: 20px; 
     padding: 2px;
     position: fixed;
-    top: 0px; left: 26%;
+    top: 0px; left: 31%;
                 transition-property: color, text-shadow;
                 transition-duration: 400ms;
          }
@@ -105,8 +105,8 @@ color: #FFD700;
     padding: 2px;
 }
 #t{
-	position: absolute; left: 25%; top: 940px;
-	width: 50%;
+	position: absolute; left: 30%; top: 970px;
+	width: 40%;
 }
 #cam{
 	position: fixed; left: 5px; top: 5px;
