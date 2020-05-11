@@ -91,7 +91,7 @@ color: #FFD700;
 }
 #r{
 	text-align: center;
-	position: absolute; left: 25%; top: 745px;
+	position: absolute; left: 25%; top: 730px;
 	width: 50%;
 	color: rgb(230, 120, 15);
 	font-size: 37pt;
@@ -114,10 +114,10 @@ color: #FFD700;
 position: fixed; right: 5px; top: 5px;
 }
 #VK{
-position: fixed; right: 5px; top: 60px;
+position: fixed; right: 5px; top: 80px;
 }
 #Youtube{
-position: fixed; right: 5px; top: 115px;	
+position: fixed; right: 5px; top: 155px;	
 }
 #snoop{
 position: absolute; left: 10px; top: 1000px;
@@ -146,6 +146,61 @@ position: absolute; left: 10px; top: 1000px;
 #portal:hover {
     animation-name: prt;
     animation-duration: 3s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+
+
+
+
+
+@keyframes Insta {
+    from {
+    	width: 50px;
+    	height: 50px;   
+    }
+    to {
+    	width: 70px;
+    	height: 70px;
+    }
+                 }
+#Insta:hover {
+    animation-name: Insta;
+    animation-duration: 500ms;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+
+@keyframes VK {
+    from {
+    	width: 50px;
+    	height: 50px;   
+    }
+    to {
+    	width: 70px;
+    	height: 70px;
+    }
+}
+#VK:hover {
+    animation-name: VK;
+    animation-duration: 500ms;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+
+@keyframes Youtube {
+    from {
+    	width: 50px;
+    	height: 50px;   
+    }
+    to {
+    	width: 70px;
+    	height: 70px;
+    }
+}
+#Youtube:hover {
+    animation-name: Youtube;
+    animation-duration: 500ms;
     animation-direction: alternate;
     animation-fill-mode: forwards;
 }
